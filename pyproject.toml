@@ -1,0 +1,19 @@
+[project]
+name = "ppr-courses-downloader"
+version = "1.0.0"
+description = "This project is a complete toolset to download, organize, and search course materials from padrepauloricardo.org with a Web Scraper and a Database Manager"
+readme = "README.md"
+requires-python = ">=3.15"
+license = { file = "LICENSE" }
+
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "black>=26.10.1",
+    "questionary>=2.1.1",
+    "selenium>=4.51.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.10.1",
+]
